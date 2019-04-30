@@ -1,3 +1,3 @@
 # RubyTutorial
 
- - [Ruby入門](https://www.javadrive.jp/ruby/)をいろいろためすリポジト
+ - [Ruby入門](https://www.javadrive.jp/ruby/)をいろいろためすリポジトリ
