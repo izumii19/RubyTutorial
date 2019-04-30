@@ -1,1 +1,5 @@
-puts "hello,world"
+#コメント
+puts "hello"
+puts "world"
+
+
