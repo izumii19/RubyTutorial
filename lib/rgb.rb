@@ -2,15 +2,19 @@
 # coding: utf-8
 
 # 10=>16進数
-def to_hex(vals)
+def to_hex(r, g, b)
+  hex = "#"
   # 16進数に変換した値を保持
-  rgb_vals = vals.map { |val|val.to_s(16).rjust(2, "0")}
-  # 先頭に"#"追加
-  "##{rgb_vals[0]}#{rgb_vals[1]}#{rgb_vals[2]}"
+  [r, g, b].each { |val|
+    hex += val.to_s(16).rjust(2, "0")
+  }
+  hex
 end
 
 # 16=>10進数
-def to_ints(vals)
-  rgb_vals = vals[1..2], vals[3..4], vals[5..6]
-  rgb_vals.map { |val| val.hex }
+def to_ints(color_code)
+  rgb = color_code[1..2], color_code[3..4], color_code[5..6]
+  rgb.map { |n|
+    n.to_i(16)
+  }
 end
