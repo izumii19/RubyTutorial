@@ -4,7 +4,7 @@
 require "minitest/autorun"
 
 # rgb.rbを読み込み
-require "../lib/rgb"
+require "../lib/4_rgb"
 
 class RGBTest < Minitest::Test
   # 10 => 16進数のテスト
