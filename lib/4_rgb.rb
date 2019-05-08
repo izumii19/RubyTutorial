@@ -14,7 +14,5 @@ end
 # 16=>10進数
 def to_ints(color_code)
   rgb = color_code[1..2], color_code[3..4], color_code[5..6]
-  rgb.map { |n|
-    n.to_i(16)
-  }
+  rgb.map { |n| n.to_i(16) }
 end
