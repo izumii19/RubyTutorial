@@ -4,7 +4,7 @@
 require "minitest/autorun"
 
 # fizz_buzz.rbを読み込み
-require "../lib/2_fizz_buzz"
+require "./lib/2_fizz_buzz"
 
 class FizzBuzzTest < Minitest::Test
   def test_fizz_buzz

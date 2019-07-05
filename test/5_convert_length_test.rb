@@ -4,7 +4,7 @@
 require "minitest/autorun"
 
 # rgb.rbを読み込み
-require "../lib/5_convert_length"
+require "./lib/5_convert_length"
 
 class ConvertLengthTest < Minitest::Test
   # 10 => 16進数のテスト
